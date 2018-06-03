@@ -16,7 +16,7 @@ public class Stack_DataStructures {
     private int top;
     /**
      * Constructor to create stack with size 
-     * @param stack_size
+     * @param size stack_size String size
      */
     public  Stack_DataStructures (int size)
     {
@@ -73,8 +73,8 @@ public class Stack_DataStructures {
     }
     /**
      * This method adds new char to the top of the stack
-     * @param character
-     * @throws Exception
+     * @param character character to push
+     * @throws Exception throws exception
      */
     public void push(char character)throws Exception
     {
@@ -92,7 +92,8 @@ public class Stack_DataStructures {
     }
      /**
      * This method pops up  char from top of the stack
-     * @throws Exception
+     * @throws Exception throws exception
+     * @return character which is on top 
      */
     public char pop() throws Exception
     {
@@ -108,6 +109,7 @@ public class Stack_DataStructures {
     
     /**
      * This boolean method checks if stack is full or not
+     * @return true if stack is full
      */
     public boolean isStackFull()
     {
@@ -123,6 +125,7 @@ public class Stack_DataStructures {
     }
     /**
      * This boolean method checks if stack is empty or not
+     * @return true is stack is empty
      */
     public boolean isStackEmpty()
     {
